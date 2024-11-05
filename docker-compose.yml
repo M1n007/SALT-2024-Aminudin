@@ -24,7 +24,7 @@ services:
       - THROTTLE_TTL=${THROTTLE_TTL}
       - THROTTLE_LIMIT=${THROTTLE_LIMIT}
     ports:
-      - '9000:${PORT}'
+      - '${PORT}:${PORT}'
     depends_on:
       - postgres-salt-test
     restart: unless-stopped

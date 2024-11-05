@@ -85,9 +85,9 @@ THROTTLE_LIMIT=10
    ```
 
 4. **Access the application :**
-   - The app will be available at http://localhost:9000.
-   - The api documentation will be available at http://localhost:9000/swagger-docs.
-   - Use the configured PORT (default: 9000) to access the app
+   - The app will be available at http://localhost:3000.
+   - The api documentation will be available at http://localhost:3000/swagger-docs.
+   - Use the configured PORT (default: 3000) to access the app
 
 4. **Logs the apps & database :**
 ```bash
